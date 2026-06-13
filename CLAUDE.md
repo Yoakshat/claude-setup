@@ -41,7 +41,7 @@ Use `git worktree remove` to clean up after merging.
 
 ## project.md
 
-Single source of truth. Must stay current.
+Single source of truth. Must stay current. After any significant change — new file, new dependency, architecture shift, deployment update — update project.md immediately without being asked. Don't let it drift.
 
 ```
 # Project: <Name>

@@ -40,11 +40,8 @@ All worktrees for this project will live as siblings of `main/` inside `~/projec
 
 ## Step 3: Write project.md
 
-Create `project.md` at the repo root (`~/projects/<name>/main/project.md`). Fill it in based on what you know — be thorough. Choose the right tech stack for a non-technical user (prefer simple, proven stacks: Next.js for web apps, plain Python for scripts, etc.).
+Create `project.md` at the repo root (`~/projects/<name>/main/project.md`). Fill it in based on what you know — be thorough. Choose the right tech stack for a non-technical user (prefer simple, proven stacks: Next.js for web apps, plain Python for scripts, etc.):
 
-Create two files:
-
-**`project.md`** — technical context only, stable:
 ```markdown
 # Project: <Name>
 
@@ -64,22 +61,6 @@ Create two files:
 <Will be filled in as we build>
 ```
 
-**`tasks.md`** — living task list, dynamic:
-```markdown
-# Tasks
-
-## In Progress
-<nothing yet>
-
-## Up Next
-- [ ] <slug> — <full description: what to build, how it should behave, what done looks like>
-
-## Backlog
-- [ ] <slug> — <full description>
-```
-
-Generate as many tasks as the project actually needs — you own the breakdown. Hard rule: every task must be independently deployable. No target number. Write each description so any agent can pick it up cold.
-
 ## Step 4: Initial commit and push
 
 ```bash
@@ -90,6 +71,4 @@ git push origin main
 
 ## Step 5: Tell the user
 
-"Done! **<Project Name>** is set up at `~/projects/<name>/main/`.
-
-I've queued <N> tasks to build it out. Just say **resume** whenever you're ready and I'll start building."
+"Done! **<Project Name>** is set up at `~/projects/<name>/main/`. Just say **resume** whenever you're ready and I'll start building."

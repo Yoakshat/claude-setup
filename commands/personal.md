@@ -40,7 +40,7 @@ All worktrees for this project will live as siblings of `main/` inside `~/projec
 
 ## Step 3: Write project.md
 
-Create `project.md` at the repo root (`~/projects/<name>/main/project.md`). Fill it in based on what you know — be thorough. Choose the right tech stack for a non-technical user (prefer simple, proven stacks: Next.js for web apps, plain Python for scripts, etc.):
+Create `project.md` at the repo root (`~/projects/<name>/main/project.md`). Fill it in based on what you know — be thorough. Choose the best tech stack for the job:
 
 ```markdown
 # Project: <Name>

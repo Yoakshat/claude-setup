@@ -39,6 +39,10 @@ When working on a personal project and the task has multiple independent subtask
 
 Use `git worktree remove` to clean up after merging.
 
+### Merging with collaborators
+
+When merging branches from multiple people, don't just pick one side of a conflict. First understand the intent behind each change — what was this person trying to add or fix? Then resolve the conflict so all functionality is preserved. If two people touched the same area for different reasons, both reasons still matter. When in doubt, read the commit messages and diff context to understand what each collaborator was going for before resolving.
+
 ## project.md
 
 Single source of truth. Must stay current. After any significant change — new file, new dependency, architecture shift, deployment update — update project.md immediately without being asked. Don't let it drift.
